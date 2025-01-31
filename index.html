@@ -29,6 +29,7 @@
                 clifford: '#da373d',
                 'ylw': 'rgba(255, 220, 38, 1)',
                 'pnk': 'rgba(255, 249, 244, 1)',
+                'crd': 'rgba(249, 223, 138, 1)',
               }
             }
           }
@@ -51,7 +52,7 @@
 
     <!-- nav section -->
 
-    <section class="bg-pnk shadow-sm w-full mb-20">
+    <section class="bg-pnk shadow-sm w-full lg:mb-20 mb-0">
 
         <div class="navbar lg:w-4/5 mx-auto w-full p-2 lg:p-0 ">
     
@@ -110,8 +111,8 @@
 
     <!-- banner -->
 
-    <section class="lg:w-4/5 mx-auto w-full p-2 lg:p-0 lg:mb-20 ">
-        <div class=" relative w-full lg:h-[600px] h-[550px]">
+    <section class="lg:w-4/5 mx-auto w-full p-2 lg:p-0 mb-20  ">
+        <div class=" relative w-full lg:h-[600px] h-[450px]">
 
         <div class=" lg:w-3/5  space-y-4 mt-16">
 
@@ -138,6 +139,177 @@
 <main>
 
 <!-- <div class="bg-gradient-to-r from-indigo-500 p-5">gradient</div> -->
+
+<!-- browse section -->
+
+<section class="lg:w-4/5 mx-auto w-full p-2 lg:p-0">
+  <h1 class="text-3xl mb-12">Browse By Categories</h1>
+
+  <div class="grid  lg:grid-cols-6 grid-cols-2 flex-wrap gap-3">
+  
+    <div class="card bg-crd  shadow-xl">
+      <figure class="px-10 pt-10">
+        
+       
+
+          <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/dog-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Dog</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+
+    <div class="card bg-crd  shadow-xl">
+      <figure class="px-10 pt-10">
+        
+        <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/fish-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Fish</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+    <div class="card bg-crd shadow-xl">
+      <figure class="px-10 pt-10">
+        
+       
+
+          <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/cat-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Cat</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+    <div class="card bg-crd  shadow-xl">
+      <figure class="px-10 pt-10">
+        
+       
+
+          <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/bird-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Birds</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+    <div class="card bg-crd shadow-xl">
+      <figure class="px-10 pt-10">
+        
+       
+
+          <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/mouse-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Small pet</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+    <div class="card bg-crd  shadow-xl">
+      <figure class="px-10 pt-10">
+        
+       
+
+          <div class="avatar">
+            <div class="w-20 bg-white p-3  rounded-full">
+              <img src="./c1-assets/rabbit-cartoon.png" alt="">
+            </div>
+
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Rabit</h2>
+        <p class="font-normal">3 items</p>
+        
+      </div>
+    </div>
+  
+  </div>
+
+</section>
+
+<!-- extra section -->
+
+<section class="lg:w-4/5 mx-auto w-full p-2 lg:p-0">
+
+  <h1 class="font-bold text-5xl mb-5">Your Pets</h1>
+ 
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+  
+      <div class="card card-compact bg-base-100 shadow-xl p-4">
+          <figure class=" bg-gray-200 p-5">
+            <img src="./c1-assets/dog-cartoon.png" class="w-72 bg-gray-200 " alt="">
+          </figure>
+          <div class="card-body space-y-3">
+            <h2 class="card-title text-gray-500">Dog </h2>
+            <div class="card-actions flex items-center ">
+  <p class="text-txc text-5xl">$24</p>
+  
+              <button class="btn bg-green-400 text-white font-normal">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      <div class="card card-compact bg-base-100 shadow-xl p-4">
+          <figure class=" bg-gray-200 p-5">
+            <img src="./c1-assets/rabbit-cartoon.png" class="w-72 bg-gray-200 " alt="">
+          </figure>
+          <div class="card-body space-y-3">
+            <h2 class="card-title text-gray-500">Rabit </h2>
+            <div class="card-actions flex items-center ">
+  <p class="text-txc text-5xl">$50</p>
+  
+              <button class="btn bg-green-400 text-white font-normal">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      <div class="card card-compact bg-base-100 shadow-xl p-4">
+          <figure class=" bg-gray-200 p-5">
+            <img src="./c1-assets/cat-cartoon.png" class="w-72 bg-gray-200 " alt="">
+          </figure>
+          <div class="card-body space-y-3">
+            <h2 class="card-title text-gray-500">Cat </h2>
+            <div class="card-actions flex items-center ">
+  <p class="text-txc text-5xl">$20</p>
+  
+              <button class="btn bg-green-400 text-white font-normal">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+     
+  
+  </div>
+
+<div class="justify-center">
+  <button class="btn btn-active btn-accent">Accent</button>
+</div>
+
+</section>
     
 </main>
 
